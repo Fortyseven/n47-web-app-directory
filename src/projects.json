@@ -1,0 +1,41 @@
+{
+    "sites": [
+        {
+            "name": "Chit 2",
+            "desc": "A feature-packed Ollama chat front-end focused on privacy without requiring a backend.",
+            "link": "https://fortyseven.github.io/chit-v2/",
+            "repo": "https://github.com/Fortyseven/chit-v2"
+        },
+        {
+            "name": "Blurryface",
+            "desc": "Privacy-first client-side photo face blurring -- everything stays in the browser.",
+            "link": "https://fortyseven.github.io/blurryface/",
+            "repo": "https://github.com/Fortyseven/blurryface"
+        },
+        {
+            "name": "CTF Panel",
+            "desc": "A collection of utilities for CTF participants, but also anyone doing cyber-research.",
+            "link": "https://fortyseven.github.io/ctfpanel/",
+            "repo": "https://github.com/Fortyseven/ctfpanel"
+        },
+        {
+            "name": "ZLLM",
+            "desc": "An Ollama experiment handing the reins of Zork to an LLM. ",
+            "link": "https://fortyseven.github.io/zllm/",
+            "repo": "https://github.com/Fortyseven/zllm"
+        },
+        {
+            "name": "Star Trek IV Phylum Search",
+            "desc": "Recreation of the 'Phylum Search' screen from Star Trek IV using HTML/CSS, TypeScript, and Svelte",
+            "link": "https://fortyseven.xyz/projects/phylum-search/",
+            "repo": "https://github.com/Fortyseven/phylum-search-ui"
+        },
+        {
+            "name": "Chit (Deprecated)",
+            "desc": "Original verison of Chit; later rewritten",
+            "link": "https://fortyseven.github.io/chit/",
+            "repo": "https://github.com/Fortyseven/chit",
+            "class": "deprecated"
+        }
+    ]
+}

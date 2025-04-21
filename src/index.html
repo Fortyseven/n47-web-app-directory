@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Showcase</title>
+        <link rel="stylesheet" href="assets/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <a href="https://Network47.org/"><img
+                        src="https://network47.org/wp-content/themes/network47-2023/assets/network47.png" alt="Network47 Logo"></a>
+            </div>
+            <h1>Web App Directory</h1>
+        </header>
+        <main>
+            <ul>
+                {% for site in sites %}
+                <li onclick="if (!event.target.closest('a')) window.open('{{ site.link }}', '_blank')" class="{{ site.class }}">
+                    <h3><a href="{{ site.link }}" target="_blank" onclick="event.stopPropagation();">{{ site.name }}</a></h3>
+                    <p>{{ site.desc }}</p>
+                    <p><a href="{{ site.repo }}" onclick="event.stopPropagation();">{{ site.repo }}</a></p>
+                </li>
+                {% endfor %}
+            </ul>
+        </main>
+    </body>
+
+</html>
