@@ -1,7 +1,7 @@
 {
     "sites": [
         {
-            "name": "Chit 2",
+            "name": "Chit",
             "desc": "A feature-packed Ollama chat front-end focused on privacy without requiring a backend.",
             "link": "https://fortyseven.github.io/chit-v2/",
             "repo": "https://github.com/Fortyseven/chit-v2"
@@ -29,13 +29,6 @@
             "desc": "Recreation of the 'Phylum Search' screen from Star Trek IV using HTML/CSS, TypeScript, and Svelte",
             "link": "https://fortyseven.xyz/projects/phylum-search/",
             "repo": "https://github.com/Fortyseven/phylum-search-ui"
-        },
-        {
-            "name": "Chit (Deprecated)",
-            "desc": "Original verison of Chit; later rewritten",
-            "link": "https://fortyseven.github.io/chit/",
-            "repo": "https://github.com/Fortyseven/chit",
-            "class": "deprecated"
         }
     ]
 }
