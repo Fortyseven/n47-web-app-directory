@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.25;
     margin: 0;
     padding: 1em;
     background-color: var(--background-color);
@@ -56,12 +56,14 @@ ul {
 
 
         h3 {
-            font-size: 1.5em;
+            font-size: 1.75em;
 
             a {
                 color: white;
             }
         }
+
+        transition: transform 0.5s ease-in;
 
         &.deprecated {
             text-decoration: line-through;
@@ -69,6 +71,8 @@ ul {
 
         &:hover {
             background-color: #333;
+            transform: scale(1.05);
+            transition: transform 0.25s ease-out;
         }
     }
 
@@ -79,11 +83,11 @@ ul {
 
 a {
     text-decoration: none;
-    color: #007acc;
+    color: var(--secondary-color);
 
-    &:hover {
-        text-decoration: underline;
-    }
+    // &:hover {
+    //     text-decoration: underline;
+    // }
 }
 
 nav {
@@ -92,7 +96,7 @@ nav {
     border-radius: 5px;
 
     a {
-        color: #00aaff;
+        color: var(--secondary-color);
         text-decoration: none;
         font-weight: bold;
 
